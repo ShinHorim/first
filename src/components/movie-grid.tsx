@@ -10,7 +10,7 @@ interface MovieGridProps {
 export default function MovieGrid({
   movies,
   onToggleBookmark,
-  onSelectMovie,
+  onSelectMovie
 }: MovieGridProps) {
   return (
     <section className="movie-grid">

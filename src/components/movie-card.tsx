@@ -14,8 +14,8 @@ export default function MovieCard({
   return (
     <article
       className="movie-card"
-      onClick={() => onSelectMovie(movie.id)}
-    >
+      onClick={() => onSelectMovie(movie.id)}>
+  
       <div className="poster-wrapper">
         <img src={movie.posterPath} alt={movie.title} />
 
